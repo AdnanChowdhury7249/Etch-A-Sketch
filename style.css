@@ -1,0 +1,215 @@
+.title {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  color: #FFED66;
+  font-weight: 800;
+}
+
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+.flex-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #78CCCB;
+  font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.board {
+
+  display: grid;
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+
+}
+
+#grid-element {
+  user-select: none;
+}
+
+.grid-item {
+  padding: 1em;
+  text-align: center;
+}
+
+
+.buttons {
+  margin-top: 50px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  min-height: 300px;
+  width: 60vw;
+  height: 60vw;
+  max-width: 600px;
+  max-height: 600px
+}
+
+/* 
+button {
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.2s;
+  height: 40px;
+  font-family: 'Lobster', cursive;
+} */
+
+
+button {
+  padding: 0.3em 1.2em;
+  margin: 0 0.9em 0.5em 0;
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "'Lobster', cursive";
+  font-weight: 600;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  width: 100px;
+
+  outline: none;
+
+  text-align: center;
+
+
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+
+
+button.hover {
+  cursor: pointer;
+}
+
+
+.blackButton {
+  background-color: black;
+  color: white;
+
+}
+
+.blackButton:Hover {
+  background-color: white;
+  color: black;
+}
+
+
+.greyButton {
+  background-color: grey;
+  color: white;
+}
+
+.greyButton:Hover {
+  background-color: white;
+  color: grey;
+}
+
+
+
+.randomButton {
+  background: linear-gradient(0.25turn, rgb(223, 135, 150), white, rgb(121, 90, 244))
+}
+
+.randomButton:Hover {
+  background: linear-gradient(0.25turn, rgb(98, 252, 103), white, rgb(245, 94, 94))
+}
+
+
+.whiteButton {
+  background-color: white;
+  color: black;
+}
+
+.whiteButton:Hover {
+  background-color: black;
+  color: white;
+}
+
+
+.resetButton {
+  background-color: white;
+  color: rgba(112, 112, 112, 0.95);
+}
+
+.resetButton:Hover {
+  background-color: rgba(112, 112, 112, 0.95);
+  color: white;
+}
+
+input {
+  width: 50px;
+}
+
+.setSizeButton {
+  background-color: white;
+  color: rgba(112, 112, 112, 0.95);
+}
+
+.setSizeButton:Hover {
+  background-color: rgba(112, 112, 112, 0.95);
+  color: white;
+}
+
+.error {
+  font-family: "'Lobster', cursive";
+  padding-bottom: 10px;
+  font-weight: 600;
+  color: #FFED66;
+  font-size: 20px;
+}
+
+.inputBoard {
+  width: 100px;
+  font-family: "'Lobster', cursive";
+  font-weight: 600;
+  color: black;
+
+}
